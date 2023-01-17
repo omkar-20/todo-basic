@@ -90,7 +90,7 @@ class _MyAppState extends State<MyApp> {
                             ),
                           ),
                         ),
-                        for (ToDo todoo in _foundToDo)
+                        for (ToDo todoo in _foundToDo.reversed)
                           ToDoItem(
                             todo: todoo,
                             onToDoChanged: _handleToDochange,
